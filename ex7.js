@@ -19,5 +19,5 @@ else if (gasto > 200 && gasto) {
 }
 
 else {
-    alert("Por favor, informe um número positivo!")
+    alert("Informe um número positivo!")
 }
