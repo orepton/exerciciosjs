@@ -12,6 +12,6 @@ else if (isNaN(n1) === true && isNaN(n2) === true && isNaN(n3) === true){
 }
 
 else {
-    alert("Os números não estão em ordem crescente!")
+    alert("O valor informado não é um número!")
 
 }
