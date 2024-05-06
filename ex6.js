@@ -1,7 +1,7 @@
-let ano = prompt("Informe seu ano de nascimento:")
+let ano = parseInt(prompt("Informe seu ano de nascimento:"))
 let maior = 2024 - ano
 
-if (ano >= 2024) {
+if (ano >= 2024 && ano < 0) {
     alert("Você é bobo?")
 }
 

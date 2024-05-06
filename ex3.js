@@ -1,10 +1,10 @@
-let num = prompt("Digite um número:")
+let num = parseInt(prompt("Digite um número:"))
 
 if (num % 2 == 0) {
     alert("O número é par!")
 }
 
-else if (num % 2 == 1) {
+else if (num % 2 != 0 && isNaN(num) === false) {
     alert("O número é ímpar!")
 }
 
