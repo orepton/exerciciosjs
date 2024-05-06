@@ -7,11 +7,11 @@ if (n1 < n2 && n2 < n3) {
     alert("Os números estão em ordem crescente!")
 }
 
-else if (isNaN(n1) === true && isNaN(n2) === true && isNaN(n3) === true){
-    alert("Por favor, informe números positivos!")
+else if (isNaN(n1) === true && isNaN(n2) && isNaN(n3) === true){
+    alert("O valor informado não é um número!")
 }
 
 else {
-    alert("O valor informado não é um número!")
+    alert("Os números não estão em ordem crescente!")
 
 }

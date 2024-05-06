@@ -4,7 +4,7 @@ let n3 = parseFloat (prompt("Informe a nota número 3"))
 let n4 = parseFloat (prompt("Informe a nota número 4"))
 let r = (n1 + n2 + n3 + n4) / 4
 
-if (r >= 7) {
+if (r >= 7 && r <= 10) {
     alert("O aluno foi APROVADO!")
     alert("A média final foi " + r + "!")
 }
