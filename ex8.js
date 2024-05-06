@@ -1,5 +1,5 @@
-let peso = parseFloat (prompt("Informe seu peso em quilogramas:"))
-let altura = parseFloat (prompt("Informe sua altura em metros:"))
+let peso = parseFloat(prompt("Informe seu peso em quilogramas:"))
+let altura = parseFloat(prompt("Informe sua altura em metros:"))
 
 imc = peso / (altura * altura)
 imcformat = imc.toFixed(2)

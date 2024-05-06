@@ -1,6 +1,6 @@
-let n1 = parseFloat (prompt("Informe um número:"))
-let n2 = parseFloat (prompt("Informe um número:"))
-let n3 = parseFloat (prompt("Informe um número:"))
+let n1 = parseFloat(prompt("Informe um número:"))
+let n2 = parseFloat(prompt("Informe um número:"))
+let n3 = parseFloat(prompt("Informe um número:"))
 
 
 if (n1 < n2 && n2 < n3) {

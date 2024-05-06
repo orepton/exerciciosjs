@@ -1,9 +1,8 @@
-gasto = parseFloat (prompt("Informe o gasto realizado:"))
-desc = 0
+gasto = parseFloat(prompt("Informe o gasto realizado:"))
 
 if (gasto <= 100 && gasto >= 0) {
     alert("Você não recebeu um desconto!")
-    alert("Preço final: R$" + gasto.toFixed(2) + ",00")
+    alert("Preço final: R$" + gasto.toFixed(2))
 }
 
 else if (gasto > 100 && gasto <= 200) {
